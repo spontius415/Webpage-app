@@ -123,8 +123,24 @@ div {
   color: var(--secondary-color);
 }
 
-@media (max-width: 500px) {
-  img {
-    width: 200px;
+@media (max-width: 576px) {
+  .primary-link {
+    text-align: center;
+    margin: 0 20px;
+    display: block;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  p {
+    text-align: center;
   }
 }
