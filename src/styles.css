@@ -17,11 +17,13 @@ h3 {
 
 h1 {
   font-size: 96px;
+  padding-top: 10px;
 }
 
 h2 {
   font-size: 48px;
   display: block;
+  padding-top: 10px;
 }
 
 h3 {
@@ -122,6 +124,13 @@ div {
   color: var(--secondary-color);
 }
 
+footer {
+  font-size: 18px;
+  color: var(--primary-color);
+  text-align: center;
+  padding-top: 10px;
+}
+
 @media (max-width: 576px) {
   .primary-link {
     text-align: center;
@@ -143,11 +152,4 @@ div {
   p {
     text-align: center;
   }
-}
-
-footer {
-  font-size: 18px;
-  color: var(--primary-color);
-  text-align: center;
-  padding-top: 10px;
 }
