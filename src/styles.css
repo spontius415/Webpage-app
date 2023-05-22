@@ -148,4 +148,6 @@ div {
 footer {
   font-size: 18px;
   color: var(--primary-color);
+  text-align: center;
+  padding-top: 10px;
 }
