@@ -144,3 +144,8 @@ div {
     text-align: center;
   }
 }
+
+footer {
+  font-size: 18px;
+  color: var(--primary-color);
+}
